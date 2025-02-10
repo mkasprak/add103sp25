@@ -30,8 +30,10 @@ p{
 }
 
 code{
-    background: grey;
-    color: yellow;
+    background: #4d4d4d;
+    color: #ffff7a;
+    padding: 10px;
+    border-radius: 20px;
     padding:10px;
     border-radius: 20px;
 }
