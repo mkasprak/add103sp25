@@ -1,6 +1,12 @@
 /* Global styling for the body element */
 body {
     /* Add styles here to affect the entire page */
+    background-image: url("../images/aurora-borealis.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    color:ivory;
 }
 
 /* Styling for the div and header elements, affecting the width, margin, border, and background color */
@@ -19,6 +25,7 @@ header {
 /* Specific styling for all div elements, setting a minimum height */
 div {
     min-height: 250px;
+    overflow: auto;
     /* Ensures the div is at least 250px tall */
 }
 
@@ -42,18 +49,31 @@ h2 {
 }
 
 /* Placeholder for floating left, add your specific styles here */
-#float-left {
+#float-left img {
     /* Add floating left-specific styles here */
+    float: left;
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    display: block;
+   
 }
 
 /* Placeholder for floating right, add your specific styles here */
-#float-right {
+#float-right img{
     /* Add floating right-specific styles here */
+    float: right;
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    display: block;
 }
 
 /* Placeholder for picture tag, add your specific styles here */
 #picture-tag {
-    /* Add picture tag-specific styles here */
+    /* Add picture
+     tag-specific styles here */
+     
 }
 
 /* Placeholder for linked image, add your specific styles here */
@@ -65,3 +85,4 @@ h2 {
 #img-as-link {
     /* Add image as link-specific styles here */
 }
+
