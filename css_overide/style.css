@@ -1,0 +1,35 @@
+
+.card {
+  background-color: #f5f5dc;
+  color: #222;
+  border: 3px solid darkgreen;
+}
+
+.card-body{
+  color: orange;
+  font-size: 60px;
+  
+}
+
+.container{
+  background: pink;
+}
+
+h1{
+  background: green;
+}
+
+.img-fluid{
+  width: 50%;
+  height: auto;
+}
+
+.col-md-6{
+  background: orange;
+}
+
+.meri{
+  background: green;
+  color: ivory;
+  font-weight: bold;
+}
